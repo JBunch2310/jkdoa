@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "Jamie",
+        "lastName": "Bunch",
+        "email": "Jamiebunch@ymail.com",
+        "deliveryAddressLine1": "2921 NE 53 CT",
+        "deliveryAddressLine2": " ",
+        "city": "Lighthouse Point",
+        "state": "FL",
+        "zipCode": "33064",
+        "preferredProduct": "Lipstick",
+        "paymentType": "Visa"
+    },
+    {
+        "firstName": "Maryjane",
+        "lastName": "Doe",
+        "email": "Maryjane@gmail.com",
+        "deliveryAddressLine1": "3229 NE 33 ST",
+        "deliveryAddressLine2": " ",
+        "city": "Lighthouse Point",
+        "state": "FL",
+        "zipCode": "33064",
+        "preferredProduct": "Foundation",
+        "paymentType": "ACH"
+    },
+    {
+        "firstName": "Shawn",
+        "lastName": "Jason",
+        "email": "ShawnJason@ymail.com",
+        "deliveryAddressLine1": "666 N SQL RD",
+        "deliveryAddressLine2": "apt 2A",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "preferredProduct": "Eye Shadow",
+        "paymentType": "COD"
+    }
+]
