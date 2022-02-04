@@ -1,7 +1,8 @@
-//import our product
+// import our product
 const product = require("./product.json");
-const customer = require("./customer.json");
+const customer = require("./customers.json");
 const order = require("./order.json");
+
 // import a set of looks to talk to firebase and Firestore
 const {
   initializeApp,
@@ -14,6 +15,7 @@ const {
   FieldValue,
   DocumentSnapshot,
 } = require("firebase-admin/firestore");
+
 //import our credentails
 const credentials = require("./credentials.json");
 //connect to firebase services
@@ -63,7 +65,7 @@ db.collection("customer")
   .catch((err) => {
     console.error(err);
   });db.collection("customer")
-  .add(customer[3])
+  .add(customer[0])
   .then((doc) => {
     console.log("Added customer", doc.id);
   })
